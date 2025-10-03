@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toko Elektronik Online</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #005f99;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+    header h1 {
+      margin: 0;
+    }
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .product {
+      background-color: white;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: transform 0.2s;
+    }
+    .product:hover {
+      transform: translateY(-5px);
+    }
+    .product img {
+      width: 100%;
+      height: auto;
+    }
+    .product-details {
+      padding: 15px;
+    }
+    .product-details h2 {
+      margin: 10px 0;
+      font-size: 18px;
+    }
+    .product-details .price {
+      color: #e91e63;
+      font-size: 16px;
+      margin: 8px 0;
+    }
+    .product-details a button {
+      background-color: #005f99;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .product-details a button:hover {
+      background-color: #004d7a;
+    }
+    footer {
+      background-color: #ddd;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Toko Elektronik Online</h1>
+    <p>Belanja gadget dan perangkat elektronik terbaik</p>
+  </header>
+
+  <section class="product-grid">
+    <div class="product">
+      <img src="https://cdnpro.eraspace.com/media/mageplaza/blog/post/l/a/laptopchromebook.jpeg" alt="Laptop Chromebook">
+      <div class="product-details">
+        <h2>Laptop</h2>
+        <p class="price">Rp 8.700.000</p>
+        <a href="https://cdnpro.eraspace.com/media/mageplaza/blog/post/l/a/laptopchromebook.jpeg" target="_blank">
+          <button>Beli Sekarang</button>
+        </a>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="https://images-cdn.ubuy.co.id/67e72cbba8aae725284630cf-phone-charger-2-pack-20w-charging-cable.jpg" alt="Phone Charger">
+      <div class="product-details">
+        <h2>Charger Phone</h2>
+        <p class="price">Rp 200.000</p>
+        <a href="https://images-cdn.ubuy.co.id/67e72cbba8aae725284630cf-phone-charger-2-pack-20w-charging-cable.jpg" target="_blank">
+          <button>Beli Sekarang</button>
+        </a>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="https://images-cdn.ubuy.co.id/66304b3724d2c92ed84731ba-unlocked-cell-phone-clearance-android.jpg" alt="Smartphone Android">
+      <div class="product-details">
+        <h2>Smartphone</h2>
+        <p class="price">Rp 5.750.000</p>
+        <a href="https://images-cdn.ubuy.co.id/66304b3724d2c92ed84731ba-unlocked-cell-phone-clearance-android.jpg" target="_blank">
+          <button>Beli Sekarang</button>
+        </a>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="https://ventionstore.id/wp-content/uploads/2024/04/%E2%96%91%E2%95%AB%E2%95%A1%E2%95%AB1-510x510.jpg" alt="Earphone">
+      <div class="product-details">
+        <h2>Earphone</h2>
+        <p class="price">Rp 250.000</p>
+        <a href="https://ventionstore.id/wp-content/uploads/2024/04/%E2%96%91%E2%95%AB%E2%95%A1%E2%95%AB1-510x510.jpg" target="_blank">
+          <button>Beli Sekarang</button>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Toko Elektronik. Semua hak dilindungi.
+  </footer>
+
+</body>
+</html>
