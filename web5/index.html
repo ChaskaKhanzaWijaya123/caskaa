@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toko Elektronik Online</title>
+  <style>
+    /* CSS internal */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #005f99;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+    header h1 {
+      margin: 0;
+    }
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .product {
+      background-color: white;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: transform 0.2s;
+    }
+    .product:hover {
+      transform: translateY(-5px);
+    }
+    .product img {
+      width: 100%;
+      height: auto;
+    }
+    .product-details {
+      padding: 15px;
+    }
+    .product-details h2 {
+      margin: 10px 0;
+      font-size: 18px;
+    }
+    .product-details .price {
+      color: #e91e63;
+      font-size: 16px;
+      margin: 8px 0;
+    }
+    .product-details button {
+      background-color: #005f99;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .product-details button:hover {
+      background-color: #004d7a;
+    }
+    footer {
+      background-color: #ddd;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Toko Elektronik Online</h1>
+    <p>Belanja gadget dan perangkat elektronik terbaik</p>
+  </header>
+
+  <section class="product-grid">
+    <div class="product">
+      <img src="images/laptop.jpg" alt="Laptop">
+      <div class="product-details">
+        <h2>Laptop XYZ</h2>
+        <p class="price">Rp 8.500.000</p>
+        <button>Beli Sekarang</button>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="images/earbuds.jpg" alt="Earbuds">
+      <div class="product-details">
+        <h2>Wireless Earbuds</h2>
+        <p class="price">Rp 1.200.000</p>
+        <button>Beli Sekarang</button>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="images/smartphone.jpg" alt="Smartphone">
+      <div class="product-details">
+        <h2>Smartphone ABC</h2>
+        <p class="price">Rp 5.750.000</p>
+        <button>Beli Sekarang</button>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="images/headphones.jpg" alt="Headphones">
+      <div class="product-details">
+        <h2>Headphones Pro</h2>
+        <p class="price">Rp 2.300.000</p>
+        <button>Beli Sekarang</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Toko Elektronik. Semua hak dilindungi.
+  </footer>
+
+</body>
+</html>
